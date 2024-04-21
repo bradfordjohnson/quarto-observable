@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  post-render: 
+    - _observable/render_scripts/generate_config.py
+    - _observable/render_scripts/build.bat
+
+website:
+  title: "quarto-observable"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: hello-framework.html
+        text: Hello Framework
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
