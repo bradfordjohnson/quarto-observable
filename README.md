@@ -6,11 +6,23 @@ This repository illustrates the fusion of Quarto and Observable Framework, enabl
 
 Combining Quarto and the Observable Framework offers a potent fusion of capabilities for creating dynamic, data-driven web content. Quarto excels in scientific and technical publishing, while Observable Framework specializes in interactive data applications and dashboards. By merging these tools, you gain the ability to seamlessly integrate static content creation with dynamic data visualization, enabling the creation of compelling and reproducible web experiences that tell powerful stories with data.
 
-# Getting Started
+## Getting Started
 
-## Prerequisites
+This repository is focused on using VS Code to integrate Quarto and Observable Framework. The following steps will guide you through the setup process. Feel free to clone and customize to your needs or follow the steps below to create a new project / add to an existing one.
 
-- [Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
+### Prerequisites
+
+- [Node.js >= 18](https://nodejs.org/en/download)
+- [Quarto](https://quarto.org/docs/get-started/)
+- [Python](https://www.python.org/downloads/)
+  - `PyYAML` library
+
+```bash
+    pip install PyYAML
+```
+
+- Git / GitHub (optional - for deploying the site / version control)
+- Previous experience with Quarto and Observable Framework is recommended.
 
 ## Aknowledgements
 
