@@ -3,7 +3,6 @@ export default {
   "title": "quarto-observable",
   "output": "../docs",
   "cleanUrls": false,
-  "theme": "midnight",
   "pages": [
     {
       "name": "Menu",
